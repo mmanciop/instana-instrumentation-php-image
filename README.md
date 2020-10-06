@@ -1,6 +1,8 @@
 # Instana Instrumentation Image for PHP
 
-## Usage
+This project gives you an easy way to bring the Instana PHP Extension into Docker images.
+
+## Build
 
 ```sh
 docker build . --build-arg "php_version=<PHP_VERSION>" --build-arg "download_key=<DOWNLOAD_KEY>" --build-arg "extension=<EXTENSION>" -t instana-php-instrumentation
